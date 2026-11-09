@@ -1,0 +1,6 @@
+{
+  "name": "StoryVerse AI",
+  "description": "AI Story Creation Studio powered by Google Gemini API with multi-stage generation, dynamic parts navigation, and API key rotation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

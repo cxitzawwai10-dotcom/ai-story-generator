@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #070A13;
+    --bg-card: #0E1424;
+    --bg-card-hover: #131B30;
+    --bg-input: #0A0E1A;
+    --border-color: #1E2942;
+    --border-focus: #7C3AED;
+    --primary-violet: #7C3AED;
+    --primary-violet-hover: #6D28D9;
+    --primary-violet-glow: rgba(124, 58, 237, 0.35);
+    --accent-purple: #A78BFA;
+    --text-white: #F8FAFC;
+    --text-muted: #94A3B8;
+    --text-dim: #64748B;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-white);
+    font-family: 'Plus Jakarta Sans', 'Padauk', system-ui, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbars for part chips and logs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0E1A;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E2942;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7C3AED;
+}
